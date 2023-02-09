@@ -306,6 +306,7 @@ module Fog
               'rootDeviceType'        => 'instance-store',
               'spotInstanceRequestId' => options['SpotInstanceRequestId'],
               'subnetId'              => options['SubnetId'],
+              'tagSpecifications'     => options['TagSpecifications'],
               'virtualizationType'    => 'paravirtual'
             }
             instances_set << instance
